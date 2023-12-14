@@ -2,13 +2,15 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333; /* Dark text color */
   }
   
   /* Style the header */
   h1 {
-    color: #333;
+    color: #3498db; /* Blue header text color */
     text-align: center;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
   }
   
@@ -16,6 +18,7 @@ body {
   .contact-info {
     margin-bottom: 20px;
     font-size: 16px;
+    color: #555; /* Slightly darker text color for contact information */
   }
   
   /* Style education section */
@@ -24,7 +27,7 @@ body {
   }
   
   .education h2 {
-    color: #333;
+    color: rgb(52, 166, 219);
   }
   
   .education p {
@@ -37,7 +40,7 @@ body {
   }
   
   .skills h2 {
-    color: #333;
+    color: #3498db;
   }
   
   .skills ul {
@@ -48,7 +51,7 @@ body {
   .skills li {
     display: inline-block;
     margin-right: 10px;
-    background-color: #3498db;
+    background-color: #2ecc71; /* Green background color for skills */
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -61,6 +64,9 @@ body {
   
   .job {
     margin-bottom: 20px;
+    background-color: #ecf0f1; /* Light gray background for each job */
+    padding: 15px;
+    border-radius: 10px;
   }
   
   .job-title {
@@ -83,12 +89,12 @@ body {
   }
   
   .leadership h2 {
-    color: #333;
+    color: #3498db;
   }
   
   /* Style individual leadership experiences */
-  .leadership .job {
-    margin-bottom: 20px;
+  .leadership p {
+    margin-bottom: 15px;
   }
   
   /* Add some responsive styles for smaller screens */
@@ -96,7 +102,7 @@ body {
     body {
       margin: 10px;
     }
-    
+  
     h1 {
       font-size: 1.5em;
     }
